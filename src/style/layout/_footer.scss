@@ -1,6 +1,6 @@
 .footer {
-  background-color: #162349;
-  color: $white-color;
+  background-color: #d2dce6;
+  color: #28465d;
   padding: 4.8rem 0;
 
   @include respond(phone) {
@@ -8,11 +8,11 @@
   }
 
   &__text {
-    color: darken(white, 50%);
+    color: darken(#28465d, 50%);
     font-size: 1.3rem;
 
     a {
-      color: darken(white, 50%);
+      color: darken(#28465d, 50%);
       font-size: 1.3rem;
       transition: all 0.4s;
       display: inline-block;
@@ -28,24 +28,29 @@
   }
 
   & hr {
+    color: #28465d;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border: 0;
+    border: 0 solid #28465d;
     width: 50%;
-    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    border-top: 2px solid #28465d;
   }
+}
+
+hr {
+  color: #28465d;
 }
 
 .social-links {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: center;;
 
   a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: $white-color;
+    color: #28465d;
     font-size: 3rem;
     width: 5rem;
     height: 5rem;
@@ -56,10 +61,14 @@
       transform: translateY(-2px);
     }
   }
+
+  i {
+    color: #28465d;
+  }
 }
 
 .back-to-top i {
-  color: $white-color;
+  color: #28465d;
   margin: 1rem 0 $default-font-size;
   transition: all 0.2s ease-in;
 
