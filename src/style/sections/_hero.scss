@@ -30,18 +30,24 @@
     font-size: 30px;
 
     @include respond(tab-land) {
-      font-size: 2rem;
+      font-size: 3rem;
+      color: #28465d;
+      -webkit-text-stroke: 0.5px white;
     }
     @include respond(tab-port) {
-      font-size: 2rem;
+      font-size: 2.5rem;
       text-align: center;
+      color: #28465d;
     }
     @include respond(phone) {
       font-size: 2rem;
       line-height: 1.5;
+      color: #28465d;
+      -webkit-text-stroke: 0.5px white;
     }
     @include respond(phone-xs) {
       font-size: 2rem;
+      color: #28465d;
     }
   }
 
@@ -61,10 +67,11 @@
     @include respond(phone) {
       font-size: 3.5rem;
       line-height: 1.5;
-      margin-top: 15px;
+      margin-bottom: 2rem;
     }
     @include respond(phone-xs) {
       font-size: 2.8rem;
+      margin-bottom: 2rem;
     }
   }
 
